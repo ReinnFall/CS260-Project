@@ -39,24 +39,24 @@ My website will include React.
 
 
 ## HTML Pages
-I currently have 3 html pages: a home page that asks for a login and to choose a Pokemon, a Ratings page that will include ratings for each Pokemon in Pokemon Go, and a Show-Off page that will allow users to share their recent catches.
+I currently have 2 html pages: a home page that asks for a login and to choose a Pokemon and a Ratings page that will include ratings for each Pokemon in Pokemon Go.
 
 ## HTML Tags
 My HTML files include the necessary tags.
 ## Links
 My naviagtion links are at the top of each of my HTML files.
 ## Application Textual Content
-
+To be completely honest, I don't know what this is referring to. I hope I did it!
 ## Placeholder for 3rd party Service Calls
-
+All my data for "Attacker and PvP Rankings" "Max IV CP Value" "Rank 1 CP Values" come from different websites. For now, I have manually added the data for Charizard.
 ## Application Images
-
+Right now I have manually linked Charizard's images in the ratings section. Eventually I would like to dynamically access a database with every Pokemon.
 ## Login Placeholder
-
+The placeholder is found in my home page. As of right now it brings the user to ratings. Eventually I would like it to keep the user on the home page and only go to Ratings when a Pokemon is selected.
 ## Database Data Placeholder
 
 ## WebSocket Data Placeholder
-
+My home page has a section called "Recent Catches" that will display the user's name and the rare Pokemon that they caught. This action will be initaited when they press the "Got it" button in Ratings. (This is not implemented)
 
 
 
