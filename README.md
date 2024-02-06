@@ -35,6 +35,26 @@ There will be a show-off tab where you can post your cool finds in Pokemon Go. Y
 # Web Framework
 My website will include React.
 
+### Startup HTML
+
+## HTML Pages
+
+## HTML Tags
+
+## Links
+
+## Application Textual Content
+
+## Placeholder for 3rd party Service Calls
+
+## Application Images
+
+## Login Placeholder
+
+## Database Data Placeholder
+
+## WebSocket Data Placeholder
+
 
 
 
