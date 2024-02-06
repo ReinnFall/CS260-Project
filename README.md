@@ -54,7 +54,7 @@ Right now I have manually linked Charizard's images in the ratings section. Even
 ## Login Placeholder
 The placeholder is found in my home page. As of right now it brings the user to ratings. Eventually I would like it to keep the user on the home page and only go to Ratings when a Pokemon is selected.
 ## Database Data Placeholder
-
+After logging into the page, you will see "My Pokemon" in the home page. This will be a list of all the pokemon you have pressed "Got it" on and will be saved for every user. (Manually put in for now)
 ## WebSocket Data Placeholder
 My home page has a section called "Recent Catches" that will display the user's name and the rare Pokemon that they caught. This action will be initaited when they press the "Got it" button in Ratings. (This is not implemented)
 
