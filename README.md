@@ -37,12 +37,14 @@ My website will include React.
 
 ### Startup HTML
 
+
 ## HTML Pages
+I currently have 3 html pages: a home page that asks for a login and to choose a Pokemon, a Ratings page that will include ratings for each Pokemon in Pokemon Go, and a Show-Off page that will allow users to share their recent catches.
 
 ## HTML Tags
-
+My HTML files include the necessary tags.
 ## Links
-
+My naviagtion links are at the top of each of my HTML files.
 ## Application Textual Content
 
 ## Placeholder for 3rd party Service Calls
