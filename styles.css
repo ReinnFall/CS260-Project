@@ -29,7 +29,12 @@ footer{
 
 }
 .login{
-
+    display: flex;
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 20px;
+    /* border: 1px solid #ccc; adds a thin border around the div*/ 
 }
 .search-bar{
     
