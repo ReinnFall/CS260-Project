@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=e4d, initial-scale=1.0">
         <title>Pokemon Go Checker</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 <body>
     <header>
@@ -14,52 +15,48 @@
                 <div><a href="ratings.html">Ratings</a></div>
               </menu>
         </nav>
-        <hr> <!-- makes line across screen (take out when adding css)-->
     </header>
     <main>
-        <p>Login:</p>
-        <form method="get" action="ratings.html">
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Your name here" />
-            <button type="submit">Login</button>
-        </form>
-        <hr> <!-- makes line across screen (take out when adding css)-->
-
-        <p>Choose a Pokemon</p>
-         <div>
-            <label for="search">Search: </label>
-            <input type="search" id="search" name="varSearch" />
+        <div class="login">Login:
+            <form method="get" action="ratings.html">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name here" />
+                <button type="submit">Login</button>
+            </form>
         </div>
-        <hr> <!-- makes line across screen (take out when adding css)-->
-
-        <p>Recent Catches</p>
-        <div>
-            <ul>
-                <li>ReinnFall caught a 100% Charizard!</li> <!--Look into class ids-->
-                <li>Jess caught a shiny Magikarp!</li>
-                <li>Tom caught a Rank 1 Quagsire!</li>
-            </ul>
+        
+        <div class="search-bar">Choose a Pokemon
+            <div>
+                <label for="search">Search: </label>
+                <input type="search" id="search" name="varSearch" />
+            </div>
         </div>
-        <hr> <!-- makes line across screen (take out when adding css)-->
-
-        <p>My Pokemon:</p>
-        <div>
-            <img alt = "2nd Stage" src="https://img.pokemondb.net/sprites/lets-go-pikachu-eevee/normal/charizard.png"/>
+        
+        <div class="recent-catches">Recent Catches
+            <div>
+                <ul>
+                    <li>ReinnFall caught a 100% Charizard!</li> <!--Look into class ids-->
+                    <li>Jess caught a shiny Magikarp!</li>
+                    <li>Tom caught a Rank 1 Quagsire!</li>
+                </ul>
+            </div>
         </div>
+
+        <div class="pokemon_storage">My Pokemon:
+            <div>
+                <img alt = "2nd Stage" src="https://img.pokemondb.net/sprites/lets-go-pikachu-eevee/normal/charizard.png"/>
+            </div>
+        </div>
+
     </main>
+
     <footer>
-        <div>
-            <p>Credits</p>
+        <div class="credits">Credits
             <li><a href="https://gamepress.gg/pokemongo/">Gamepress</a></li>
             <li><a href="https://db.pokemongohub.net/">Pokemon Go Hub</a></li>
             <li><a href="https://pokemondb.net/sprites/">Pokemon Database</a></li>
-        </div>
-        <div>
             <p><a href="https://github.com/ReinnFall/startup.git">James Stock's Github Repository</a></p>
         </div>
-        
-
-
     </footer>
 </body>
 </html>
