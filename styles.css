@@ -1,8 +1,29 @@
 header{
   
 }
+.navbar{
+
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar li {
+    padding: 10px;
+  }
+.navbar a {
+    color: white;
+    text-decoration: none;
+  }
+.navbar a:hover {
+    background-color: #555;
+  }
+
 body{
     background-color: cadetblue;
+    
 }
 footer{
 
@@ -14,5 +35,11 @@ footer{
     
 }
 .recent-catches{
-  
+   
+}
+.pokemon-storage{
+   
+}
+.credits{
+
 }
