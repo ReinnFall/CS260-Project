@@ -56,13 +56,15 @@ footer{
     padding: 20px;
     /* border: 1px solid #ccc; adds a thin border around the div*/ 
 }
-.search-bar-title{
+.search-bar-div{
   display: flex;
   text-align: center;
   justify-content: center;
   font-size: xx-large;
   flex-direction: column;
-  
+}
+.search-bar-title{
+  padding: 16px;
 }
 .search-bar{
   width: 1000px; 
@@ -72,10 +74,20 @@ footer{
 }
 .recent-catches{
   display: flex;
+  justify-content: center;
   text-align: center;
-  justify-content: right;
-  flex-direction: column-reverse;
-  
+  flex-direction: column;
+}
+.recent-catches-title{
+  font-size:x-large;
+  padding: 16px;
+}
+.recent-catches-list{
+  font-size:larger;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 .pokemon-storage{
   display: flex;
