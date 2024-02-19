@@ -39,15 +39,7 @@ main{
   justify-content: space-around;
 }
 
-footer{
-  color: #fff;
-  padding: 20px;
-  
-  /* Position the footer at the bottom */
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
+
 .login{
     display: flex;
     top: 0;
@@ -90,10 +82,31 @@ footer{
   flex-direction: column;
 }
 .pokemon-storage{
-  display: flex;
   text-align: center;
   justify-content: center;
 }
+.pokemon-storage-title{
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+.pokemon-storage-images{
+  flex-direction: row;
+}
+footer{
+  padding: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 .credits{
-
+  display: flex;
+  flex-direction: column;
+}
+.credits-title{
+  font-size: large;
+}
+.credits-links{
+font-size: medium;
 }
