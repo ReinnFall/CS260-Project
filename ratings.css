@@ -71,6 +71,48 @@ footer{
     width: 100%;
     background-color: gray;
 }
+.main-pokemon{
+    font-size: smaller;
+    text-align: center;
+    justify-content: center;
+}
+.evolutions{
+    display: flex;
+    flex-direction: row;
+
+}
+.ratings{
+    display: flex;
+    flex-direction: row;
+}
+.ratings-pvp-attacker{
+    padding: 16px;
+}
+.ratings-pvp-attacker h2{
+    text-align: center;
+}
+.ratings-ivs-raids{
+    padding: 16px;
+}
+.ratings-ivs-raids h2{
+    text-align: center;
+}
+.ratings-ivs-pvp{
+    padding: 16px;
+}
+.ratings-ivs-pvp h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 footer{
     padding: 20px;
     left: 0;
