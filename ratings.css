@@ -10,6 +10,7 @@ body{
 }
 header{
     width: 100%;
+    font-size: 1.5vw;
   }
 .navbar{
     background-color: gray;
@@ -52,34 +53,26 @@ main{
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: xx-large;
+    font-size: 3vw;
     flex-direction: column;
 }
 .search-bar-title{
     padding: 16px;
 }
-  .search-bar{
+.search-bar{
     width: 1000px; 
     height: 40px; 
     padding: 10px; 
     display: flex;
 }
-footer{
-    padding: 20px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: gray;
-}
 .main-pokemon{
-    font-size: smaller;
+    font-size: 1vw;
     text-align: center;
     justify-content: center;
 }
 .evolutions{
     display: flex;
     flex-direction: row;
-
 }
 .ratings{
     display: flex;
@@ -90,20 +83,31 @@ footer{
 }
 .ratings-pvp-attacker h2{
     text-align: center;
+    font-size: 2vw;
+}
+.ratings-pvp-attacker p{
+    font-size: 1.5vw;
 }
 .ratings-ivs-raids{
     padding: 16px;
 }
 .ratings-ivs-raids h2{
     text-align: center;
+    font-size: 2vw;
+}
+.ratings-ivs-raids p{
+    font-size: 1.5vw;
 }
 .ratings-ivs-pvp{
     padding: 16px;
 }
 .ratings-ivs-pvp h2{
     text-align: center;
+    font-size: 2vw;
 }
-
+.ratings-ivs-pvp p{
+    font-size: 1.5vw;
+}
 
 
 
@@ -119,6 +123,7 @@ footer{
     bottom: 0;
     width: 100%;
     background-color: gray;
+    font-size: 1.5vw;
 }
 .credits{
     display: flex;
