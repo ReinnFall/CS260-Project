@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ratings.css">
     <title>Ratings</title>
 </head>
 <body>
     <header>
-        <nav>
-            <menu>
-                <div><a href="index.html">Home</a></div>
-                <div><a href="ratings.html">Ratings</a></div>
-              </menu>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ratings.html">Ratings</a></li>
+            </ul>
         </nav>
+        <div class="login">Login:
+            <form method="get" action="ratings.html">
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Your name here" />
+                <button type="submit">Login</button>
+            </form>
+        </div>
     </header>
     <main>
-        <p>Choose a Pokemon</p>
-         <div>
-            <label for="search">Search: </label>
-            <input type="search" id="search" name="varSearch" />
+        <div class="search-bar-div">
+            <div class="search-bar-title">Choose a Pokemon</div>
+            <div>
+                <label for="search"></label>
+                <input type="search" id="search" name="varSearch" class="search-bar"/>
+            </div>
         </div>
-        <div>
             <h1>Charizard</h1>
         </div>
         <div>
@@ -61,14 +70,14 @@
         </div>
     </main>
     <footer>
-        <div>
-            <p>Credits</p>
-            <li><a href="https://gamepress.gg/pokemongo/">Gamepress</a></li>
-            <li><a href="https://db.pokemongohub.net/">Pokemon Go Hub</a></li>
-            <li><a href="https://pokemondb.net/sprites/">Pokemon Database</a></li>
-        </div>
-        <div>
-            <p><a href="https://github.com/ReinnFall/startup.git">James Stock's Github Repository</a></p>
+        <div class="credits">
+            <div class="credits-title">Credits</div>
+            <div class="credits-links">
+                <a href="https://gamepress.gg/pokemongo/">Gamepress</a>
+                <a href="https://db.pokemongohub.net/">Pokemon Go Hub</a>
+                <a href="https://pokemondb.net/sprites/">Pokemon Database</a>
+                <a href="https://github.com/ReinnFall/startup.git">James Stock's Github Repository</a>
+            </div>
         </div>
     </footer>
 </body>
