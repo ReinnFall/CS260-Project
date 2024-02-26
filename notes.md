@@ -27,3 +27,18 @@ The container has to be a flex
 
 When using viewport, you can make the text dynamically change size by setting the font size to 4vw. 
 
+### JavaScript
+let s = 'Cats Dogs Rats Mice'; // string literal
+s = new String('Cats Dogs Rats Mice'); // string object
+
+console.log('casefold: ', s.toUpperCase(), s.toLowerCase());
+
+console.log('split: ', s.split(' '));
+    split:  (4) ['Cats', 'Dogs', 'Rats', 'Mice']
+console.log('endsWith: ', s.endsWith('Mice'));
+    true
+console.log('replace: ', s.replace('Dogs', 'Puppies'));
+    replace:  Cats Puppies Rats Mice
+console.log('slice: ', s.slice(3, 7));
+    slice:  s Do
+
