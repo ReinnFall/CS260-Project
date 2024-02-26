@@ -28,6 +28,7 @@ The container has to be a flex
 When using viewport, you can make the text dynamically change size by setting the font size to 4vw. 
 
 ### JavaScript
+## Random Functions
 let s = 'Cats Dogs Rats Mice'; // string literal
 s = new String('Cats Dogs Rats Mice'); // string object
 
@@ -41,4 +42,23 @@ console.log('replace: ', s.replace('Dogs', 'Puppies'));
     replace:  Cats Puppies Rats Mice
 console.log('slice: ', s.slice(3, 7));
     slice:  s Do
+ 
+## Regex
+ const text = 'Both cats and dogs are pets, but not rocks.';
+
+  const objRegex = new RegExp('cat.?', 'i'); // cat, cats, catz
+  const literalRegex = /cat.?/i; // literal regex with flags
+  console.log(text.match(literalRegex)); 
+
+    ['cats', index: 5, input: 'Both cats and dogs are pets, but not rocks.', groups: undefined]
+
+  
+  const petRegex = /(dog)|(cat)|(bird)/gim; // global, case insensitive, multiline
+    
+  console.log(text.match(petRegex));
+    ['cat', 'dog']
+  console.log(text.replace(petRegex, 'animal'));
+    Both animals and animals are pets, but not rocks.
+  console.log(petRegex.test(text));
+    true
 
